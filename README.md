@@ -19,7 +19,10 @@ Address: 0xc049edfc24828bc4a254200d92614365b8cb95fc
 Purpose: A test version of the USDC token with 18 decimals, used as the payment currency for purchasing Akasha tokens.
 
 **High-Level Functionality
-**Market Maker Actions
+** 
+
+
+Market Maker Actions
 The market maker (contract owner) can:
 
 Load Token Blocks: Predefine blocks of Akasha tokens with specific sizes and prices.
@@ -29,6 +32,8 @@ Deposit Akasha tokens into the OTC contract to make them available for sale.
 Deposit USDC or withdraw excess USDC if needed.
 Modify or Cancel Blocks:
 Update block details (size or price) or cancel unsold blocks.
+
+
 User Actions
 Buyers can:
 
@@ -46,14 +51,18 @@ Call loadBlocks with block sizes and prices (e.g., [100, 500, 1000] and [10, 10,
 User Executes Trade:
 Query getAvailableBlocks to find an available block.
 
+
 Approve the OTC contract to spend USDC using the USDC contract’s approve function.
 
+
 Call executeTrade with:
+
 
 blockIndex: The block index to purchase.
 paymentToken: 0xc049edfc24828bc4a254200d92614365b8cb95fc (USDC).
 paymentAmount: The exact total price (e.g., 1000 * 10^18 for 1000 USDC).
 Tokens are transferred:
+
 
 Akasha tokens → User.
 USDC → Market Maker.
