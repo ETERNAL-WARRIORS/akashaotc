@@ -18,8 +18,7 @@ USDC Test Contract
 Address: 0xc049edfc24828bc4a254200d92614365b8cb95fc
 Purpose: A test version of the USDC token with 18 decimals, used as the payment currency for purchasing Akasha tokens.
 
-**High-Level Functionality
-** 
+**High-Level Functionality** 
 
 
 Market Maker Actions
