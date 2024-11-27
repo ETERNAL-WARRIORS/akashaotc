@@ -1,3 +1,6 @@
+
+<img width="597" alt="Screenshot 2024-11-27 at 8 40 01 PM" src="https://github.com/user-attachments/assets/b402ce69-8e89-41f6-abd6-ed4fce7b7292">
+
 # Akasha OTC Contract
 
 The **Akasha OTC Contract** is a proof-of-concept (POC) contract designed to facilitate over-the-counter (OTC) trades for Akasha tokens. This contract enables users to purchase Akasha tokens directly from preloaded blocks without impacting liquidity pools on the DEX. It is built to handle large trades efficiently while providing flexibility for the market maker to manage token blocks and funds.
