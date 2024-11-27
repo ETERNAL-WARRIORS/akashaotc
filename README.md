@@ -1,5 +1,6 @@
-
+<p align="center">
 <img width="597" alt="Screenshot 2024-11-27 at 8 40 01 PM" src="https://github.com/user-attachments/assets/b402ce69-8e89-41f6-abd6-ed4fce7b7292">
+</p>
 
 # Akasha OTC Contract
 
